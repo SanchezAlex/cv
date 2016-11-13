@@ -25,34 +25,33 @@ gulp.task('browser-sync', function() {
         }
     });
     gulp.watch("./src/**/*.*").on('change', browserSync.reload);
-    gulp.watch(['./src/templates/**/*.html', './src/pages/**/*.html'], ['template']);
-    gulp.watch('./src/sass/**/*', ['sass']);
+    gulp.watch('./src/css/**/*', ['sass']);
 });
 
-gulp.task('sass', function () {
-    gulp.src(['./src/sass/**/*.scss', './src/sass/**/*.sass'])
-        .pipe(sourcemaps.init())
-        .pipe(sass({
-            outputStyle: 'expanded'
-        }).on('error', gutil.log))
-        .on('error', notify.onError())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./src/css/'))
-        .pipe(browserSync.stream());
-});
+// gulp.task('sass', function () {
+//     gulp.src(['./src/sass/**/*.scss', './src/sass/**/*.sass'])
+//         .pipe(sourcemaps.init())
+//         .pipe(sass({
+//             outputStyle: 'expanded'
+//         }).on('error', gutil.log))
+//         .on('error', notify.onError())
+//         .pipe(sourcemaps.write())
+//         .pipe(gulp.dest('./src/css/'))
+//         .pipe(browserSync.stream());
+// });
 
-gulp.task('template', function () {
-    gulp.src('./src/pages/**/*.tmpl.html')
-        .pipe(rigger())
-        .pipe(rename(function (path) {
-            path.basename = path.basename.split('.')[0];
-            path.extname = ".html"
-        }))
-        .pipe(gulp.dest('./src/pages/'))
-});
+// gulp.task('template', function () {
+//     gulp.src('./src/pages/**/*.tmpl.html')
+//         .pipe(rigger())
+//         .pipe(rename(function (path) {
+//             path.basename = path.basename.split('.')[0];
+//             path.extname = ".html"
+//         }))
+//         .pipe(gulp.dest('./src/pages/'))
+// });
 
 gulp.task('html-prettify', function() {
-    gulp.src('./src/pages/*.html')
+    gulp.src('./src/*.html')
         .pipe(prettify({indent_char: ' ', indent_size: 2}))
         .pipe(gulp.dest('./build/'))
 });
@@ -113,5 +112,5 @@ gulp.task('minify-img', function() {
         .pipe(gulp.dest('./build/pic'));
 });
 
-gulp.task('server', ['browser-sync', 'sass', 'template']);
+gulp.task('server', ['browser-sync']);
 gulp.task('build', ['html-prettify', 'prefixer-css', 'comb-css', 'minify-js', 'concat-js', 'minify-img']);

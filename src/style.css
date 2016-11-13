@@ -1,0 +1,149 @@
+.navbar-custom {
+    background-color: #e7e7e7;
+}
+
+.navbar-link {
+    opacity: 0.8;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #0b7bdb;
+}
+
+.navbar-toogle-color {
+    background-color: #0b7bdb;
+    border: 1px solid #337ab7;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.white-bar {
+    background-color: #ffffff;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-block {
+    position: relative;
+    padding: 20% 0;
+}
+
+.intro-ava {
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    border-radius: 300px;
+}
+
+.intro-block-line {
+    width: 350px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .btn-default:hover {
+    color: #ffffff;
+    background-color: #0b7bdb;
+    border-color: #ffffff;
+}
+
+.btn-cv-download {
+    margin: 20px auto;
+}
+
+.about-me-text {
+    color: black;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.skill-main {
+    margin: 10px;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.skill-name {
+    color: black;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.progress {
+    height: 7px;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(11, 123, 219, 0.1) 0%, rgba(11, 123, 219, 0.1) 100%);
+}
+
+.progress-bar {
+    background-image: none;
+    background-color: #0b7bdb;
+}
+
+
+
+
+
+
+
+
+#contact {
+    background: #eee;
+}
+.form-horizontal {
+    background-color: #fff;
+}
+.form-horizontal .form-group {
+    margin: 0;
+}
+.form-fieldset {
+    padding: 10px 15px;
+}
+.form-input {
+    margin: 10px auto;
+}
+#name, #mobile, #email, #message {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #0b7bdb;
+    text-transform: uppercase;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .intro-block-line {
+        width: 270px;
+    }
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .skill-main {
+        padding: 30px;
+    }
+    .skill-name {
+        font-size: 14px;
+    }
+}
