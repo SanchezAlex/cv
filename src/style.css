@@ -150,6 +150,12 @@
     font-weight: 400;
     text-transform: uppercase;
 }
+.address-contact p {
+    display: inline-block;
+}
+.address-contact i {
+    padding-left: 15px;
+}
 
 .address-right {
     color: #3d4451;
@@ -203,5 +209,17 @@
     }
     .skill-name {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 620px) {
+    fieldset > h2 {
+        font-size: 25px;
+    }
+    .address-contact .address-contact-hidden {
+        display: none;
+    }
+    .col-xs-9 {
+        padding: 0;
     }
 }
