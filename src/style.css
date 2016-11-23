@@ -601,7 +601,7 @@ a, a:hover {
     }
 }
 
-@media (max-width: 449px) {
+@media (max-width: 465px) {
     .network-name {
         display: none;
     }
