@@ -47,7 +47,7 @@ a, a:hover {
     height: 100vh;
     top: 0;
     left: 0;
-    background: url('img/intro-bg.jpg') no-repeat 35% 50%;
+    background: url('img/intro-bg.jpg') no-repeat 35%;
     background-size: cover;
     -moz-transition: 0.1s;
     -o-transition: 0.1s;
