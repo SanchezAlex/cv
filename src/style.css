@@ -49,10 +49,16 @@ a, a:hover {
     left: 0;
     background: url('img/intro-bg.jpg') no-repeat 35%;
     background-size: cover;
-    -moz-transition: 0.1s;
-    -o-transition: 0.1s;
-    -webkit-transition: 0.1s;
-    transition: 0.1s;
+    /*-moz-transition: 0.4s;*/
+    /*-o-transition: 0.4s;*/
+    /*-webkit-transition: 0.4s;*/
+    /*transition: 0.4s;*/
+    will-change: transform;
+    -webkit-transform: transform3d(0, 0, 0);
+    -moz-transform: transform3d(0, 0, 0);
+    -ms-transform: transform3d(0, 0, 0);
+    -o-transform: transform3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
     z-index: -1;
 }
 .intro-main {
@@ -62,14 +68,14 @@ a, a:hover {
     background-size: cover;
 }
 .intro-block {
-    position: relative;
-    display:block;
-    top: 50%;
-    left: 50%;
-    text-align:center;
-    -webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-    overflow: hidden;
+    /*position: relative;*/
+    /*display:block;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*text-align:center;*/
+    /*-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);*/
+    /*text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);*/
+    /*overflow: hidden;*/
     padding-top: 20%;
     color: #fff;
 }
