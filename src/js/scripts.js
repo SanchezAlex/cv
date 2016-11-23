@@ -21,11 +21,11 @@ $(document).scroll(function(){
     parallax();
 });
 
-function parallax(){
+function parallax() {
     var scrolled = $(window).scrollTop();
-    $('.intro-banner').css('top',-(scrolled*0.1)+'px');
-    $('.intro-block').css('top',50+(scrolled*0.1)+'%');
-    $('.intro-block').css('opacity',1-(scrolled*0.01)/10);
-    $('.intro-block').css('opacity',1-(scrolled*0.01)/10);
-}
+    $('.intro-banner').css('top', -(scrolled * 0.1) + 'px');
+    $('.intro-block').css('top', 50 + (scrolled * 0.1) + '%');
+    $('.intro-block').css('opacity', 1 - (scrolled * 0.01) / 10);
+    $('.intro-block').css('opacity', 1 - (scrolled * 0.01) / 10);
 
+}
