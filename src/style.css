@@ -555,9 +555,8 @@ a, a:hover {
         width: 270px;
     }
     ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
+        display: inline-block;
+        padding: 0 5px;
     }
     .skill-main {
         padding: 30px;
@@ -599,5 +598,11 @@ a, a:hover {
     }
     .col-xs-9 {
         padding: 0;
+    }
+}
+
+@media (max-width: 449px) {
+    .network-name {
+        display: none;
     }
 }
