@@ -3,9 +3,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function initMap() {
-    var b = $('.intro-banner');
-    var w = $(window);
-    var c = $('.intro-block');
     (function () {
         var myLocation = new google.maps.LatLng(50.474118, 30.515123);
         var mapOptions = {
@@ -26,6 +23,10 @@ $(document).ready(function initMap() {
         parallax();
     });
 
+    var b = $('.intro-banner');
+    var w = $(window);
+    var c = $('.intro-block');
+
     function parallax() {
         var scrolled = w.scrollTop();
         b.css('transform', 'translate3d(0, ' + -(scrolled * 0.1) + 'px, 0)');
@@ -33,4 +34,12 @@ $(document).ready(function initMap() {
         c.css('opacity', 1 - (scrolled * 0.01) / 10);
         // $('.intro-block').css('opacity', 1 - (scrolled * 0.01) / 10);
     }
+
+    $('.fancybox-media').fancybox({
+        openEffect  : 'elastic',
+        closeEffect : 'elastic',
+        helpers : {
+            media : {}
+        }
+    });
 });

@@ -17,6 +17,7 @@ function getFormData() {
     });
     var data = {};
     fields.forEach(function(k){
+
         data[k] = elements[k].value;
         if(elements[k].type === "checkbox"){
             data[k] = elements[k].checked;

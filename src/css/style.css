@@ -1,11 +1,17 @@
 a, a:hover {
     color: #0b7bdb;;
 }
-
+.h1-custom {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #2a5eef;
+    text-shadow: 2px 1px 3px #03B;
+    text-transform: uppercase;
+}
 .navbar-custom {
     background-color: #fff;
     height: 50px;
-    box-shadow: 3px 4px 27px rgba(5,33,124,.13);
+    box-shadow: 3px 4px 27px rgba(5, 33, 124, .13);
 }
 
 .navbar-link {
@@ -25,6 +31,13 @@ a, a:hover {
 
 .navbar-right {
     float: right;
+    background-color: rgba(255,255,255, 0.8);
+    margin: 0 auto;
+}
+
+.padding-border-zero {
+    padding: 0;
+    border: 0;
 }
 
 .white-bar {
@@ -34,6 +47,7 @@ a, a:hover {
 #about-me, #skills, #portfolio, #experience, #education, #interests, #contact {
     position: relative;
     background-color: #e6e7f3;
+    z-index: 2;
 }
 
 .black-mask {
@@ -47,7 +61,7 @@ a, a:hover {
     height: 100vh;
     top: 0;
     left: 0;
-    background: url('img/intro-bg.jpg') no-repeat 35%;
+    background: url('../img/intro-bg.jpg') no-repeat 35%;
     background-size: cover;
     /*-moz-transition: 0.4s;*/
     /*-o-transition: 0.4s;*/
@@ -74,7 +88,7 @@ a, a:hover {
     /*left: 50%;*/
     /*text-align:center;*/
     /*-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);*/
-    /*text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);*/
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
     /*overflow: hidden;*/
     padding-top: 20%;
     color: #fff;
@@ -104,6 +118,7 @@ a, a:hover {
 
 
 .about-me-text {
+    margin-bottom: 40px;
     color: black;
     font-family: 'OpenSans', sans-serif;
     font-size: 20px;
@@ -112,16 +127,19 @@ a, a:hover {
 }
 
 #skills {
-    background: url('img/web-development.png') no-repeat center center;
+    background: url('../img/web-development.png') no-repeat center;
     background-size: cover;
-    color: #f5f5f5;
+}
+.mask-light {
+    background-color: rgba(230,231,243,0.7);
 }
 .skill-main {
-    margin: 15px 0 45px;
+    margin: 35px 0 90px;
     padding: 50px;
     background-color: rgba(0,0,0,0.7);
     border: 1px solid #ccc;
     border-radius: 3px;
+    color: #fff;
 }
 
 .skill-name {
@@ -143,7 +161,7 @@ a, a:hover {
 
 
 .success-banner {
-    background-image: url('img/success.jpg');
+    background-image: url('../img/success.jpg');
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-size: cover;
@@ -297,7 +315,7 @@ a, a:hover {
     top: 90px;
 }
 .experience-dot:last-child {
-    top: 527px;
+    top: 523px;
 }
 
 .experience-right:nth-child(2) {
@@ -368,7 +386,7 @@ a, a:hover {
     background-color: #0B7BD5;
 }
 .education-dot:nth-child(2) {
-    top: 104px;
+    top: 111px;
 }
 .education-dot:last-child {
     top: 211px;
@@ -442,9 +460,27 @@ a, a:hover {
     opacity: 0.54;
 }
 
+.interests-main {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.interests-text {
+    padding-top: 20px;
+}
+.interests-icons {
+    margin: 20px 0 30px;
+    display: inline-block;
+}
+.interests-hobbies {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
 
 #contact {
-    background: url('img/contact-bg.jpg') no-repeat center;
+    background: url('../img/contact-bg.jpg') no-repeat center;
 }
 .contact-me {
     padding: 20px;
@@ -514,24 +550,27 @@ a, a:hover {
 }
 
 #address-map {
-    min-height: 332px;
+    min-height: 333px;
     width: 100%;
     height: 100%;
 }
 
 
+.btn-cv-main {
+    margin-bottom: 30px;
+}
 .btn-cv-download {
-    margin: 20px auto;
+    padding: 3px 11px;
+    font-size: 12px;
 }
 
-
 .footer-main {
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #fff;
 }
 .copyright {
-    padding: 20px 0;
+    padding-top: 10px;
 }
 
 
@@ -547,13 +586,13 @@ a, a:hover {
 
 @media (max-width: 1199px) {
     .experience-line {
-        height: 585px;
+        height: 572px;
     }
     .experience-dot:last-child {
-        top: 575px;
+        top: 570px;
     }
     .education-dot:nth-child(2) {
-        top: 111px;
+        top: 118px;
     }
 }
 
@@ -562,10 +601,13 @@ a, a:hover {
         height: 700px;
     }
     .experience-dot:last-child {
-        top: 697px;
+        top: 690px;
     }
     .education-line {
         height: 220px;
+    }
+    .education-dot:nth-child(2) {
+        top: 125px;
     }
     .education-dot:last-child {
         top: 218px;

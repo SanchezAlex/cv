@@ -11,14 +11,12 @@
     <title>Landing-CV-Page</title>
     <meta name="description" content="CV Alex Malinovskyi" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -32,10 +30,10 @@
                     <span class="icon-bar white-bar"></span>
                     <span class="icon-bar white-bar"></span>
                 </button>
-                <!--<a class="navbar-brand topnav" href="#">Hello</a>-->
+                <a class="navbar-name topnav" href="#">landingCV</a>
             </div>
-            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="padding-border-zero navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+                <ul class="nav navbar-nav navbar-right text-center">
                     <li>
                         <a href="#about-me" class="navbar-link">about me</a>
                     </li>
@@ -99,7 +97,7 @@
 
 <section id="about-me">
     <div class="container">
-        <h1 class="text-center">About me</h1>
+        <h1 class="h1-custom text-center">About me</h1>
         <div class="col-md-12">
             <p class="about-me-text text-center">
                 Hello! I'm Oleksandr Malinovskyi. Junior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript, SQL, and C. Stng background in project management and customer relations.
@@ -109,44 +107,46 @@
 </section>
 
 <section id="skills">
-    <div class="container">
-        <h1 class="text-center">Skills</h1>
-        <div class="skill-main row">
-            <div class="col-sm-6">
-                <span class="skill-name">HTML5</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="25"></div>
+    <div class="mask-light">
+        <div class="container">
+            <h1 class="h1-custom text-center">Skills</h1>
+            <div class="skill-main row">
+                <div class="col-sm-6">
+                    <span class="skill-name">HTML5</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="25"></div>
+                    </div>
+                    <span class="skill-name">CSS3</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="20"></div>
+                    </div>
+                    <span class="skill-name">SASS</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="17"></div>
+                    </div>
                 </div>
-                <span class="skill-name">CSS</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="20"></div>
-                </div>
-                <span class="skill-name">SASS</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="17"></div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <span class="skill-name">Gulp</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="15"></div>
-                </div>
-                <span class="skill-name">Bootstrap</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="10"></div>
-                </div>
-                <span class="skill-name">Photoshop</span>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-transitiongoal="8"></div>
+                <div class="col-sm-6">
+                    <span class="skill-name">Gulp</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="15"></div>
+                    </div>
+                    <span class="skill-name">Bootstrap</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="10"></div>
+                    </div>
+                    <span class="skill-name">Photoshop</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="8"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </section>
+</section>
 
 <section id="portfolio">
     <div class="container">
-        <h1 class="text-center">Portfolio</h1>
+        <h1 class="h1-custom text-center">Portfolio</h1>
         <div class="col-sm-8 col-xs-12">
             <a href="">
 
@@ -160,7 +160,7 @@
 <section id="experience">
     <div class="container">
         <div class="row">
-            <h1 class="text-center">Work Experience</h1>
+            <h1 class="h1-custom text-center">Work Experience</h1>
             <div class="col-md-5 col-sm-5">
                 <div class="block-column-1">
                     <div class="block-experience-left">
@@ -230,22 +230,22 @@
                             Svoboda na Interi (channel “Inter”), etc.
                         </p>
                     </div>
-                </div>
-                <div class="block-experience-right">
-                    <p class="experience-date text-center">
-                        Apr 2006 – Aug 2007
-                    </p>
-                    <h2 class="experience-company col-md-12 text-center">
-                        Belichi.net.ua (acquired by <a href="http://lanet.ua/" target="_blank">Lanet.ua</a>)
-                    </h2>
-                    <p class="experience-position col-md-12 text-center">
-                        Wizard Connection users
-                    <p class="experience-description">
-                        <em><u>Key Responsibilities:</u></em>
-                        Connection users,
-                        hardware installations,
-                        user support, etc.
-                    </p>
+                    <div class="block-experience-right">
+                        <p class="experience-date text-center">
+                            Apr 2006 – Aug 2007
+                        </p>
+                        <h2 class="experience-company col-md-12 text-center">
+                            Belichi.net.ua (acquired by <a href="http://lanet.ua/" target="_blank">Lanet.ua</a>)
+                        </h2>
+                        <p class="experience-position col-md-12 text-center">
+                            Wizard Connection users
+                        <p class="experience-description">
+                            <em><u>Key Responsibilities:</u></em>
+                            Connection users,
+                            hardware installations,
+                            user support, etc.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -255,7 +255,7 @@
 <section id="education">
     <div class="container">
         <div class="row">
-        <h1 class="text-center">Education</h1>
+        <h1 class="h1-custom text-center">Education</h1>
             <div class="col-md-5 col-sm-5">
                 <div class="block-column-1">
                     <div class="block-education-left">
@@ -266,7 +266,10 @@
                             Certificate for courses of Front-End Development
                         </h4>
                         <p class="education-institution text-left">
-                            <a href="http://prjctr.com.ua/" target="_blank">Projector School</a>
+                            School of design & development <a href="http://prjctr.com.ua/" target="_blank">Projector</a>
+                            <br>
+                            Click to
+                            <a class="fancybox-media" href="img/cert_prjctr.jpg">view certificate</a>
                         </p>
                     </div>
                 </div>
@@ -300,112 +303,135 @@
 
 <section id="interests">
     <div class="container">
-        <h1 class="text-center">Interests</h1>
-    </div>
-</section>
-
-<section id="contact">
-    <div class="container">
-        <div class="contact-bp row">
-                <h1 class="text-center">Contact</h1>
-                <div class="col-md-6">
-                    <form id="feedback-form" class="form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycbwWdk0pdGpXvHR434VA9WmhACxbCxMZWP7XyWj2mH_0RlLQZfw/exec">
-                        <fieldset class="form-fieldset">
-                            <h2>Feel free to contact me</h2>
-                            <div class="form-group">
-                                <label for="name" class="control-label"></label>
-                                <div class="form-input">
-                                    <input type="text" id="name" name="Name" required="required" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="mobile" class="control-label"></label>
-                                <div class="form-input">
-                                    <input type="tel" id="mobile" name="Mobile" required placeholder="Mobile">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="control-label"></label>
-                                <div class="form-input">
-                                    <input type="email" id="email" name="Email" required placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message" class="control-label"></label>
-                                <div class="form-input">
-                                    <textarea id="message" name="Message" required placeholder="Message" rows="3"></textarea>
-                                </div>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <div class="text-left">
-                                    <button type="submit" class="btn-send btn btn-default btn-lg" data-toggle="modal" data-target="#feedback_thanks">Send</button>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-
-                <div class="modal fade" id="feedback_thanks" role="dialog">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Cool! You made right decision!</h4>
-                            </div>
-                            <div class="modal-body text-center">
-                                <p>Thanks for contacting me!
-                                    I`ll call you soon!</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-md-6">
-                <div id="address-map-main" class="panel panel-default">
-                    <div class="col-md-4 col-sm-4 col-xs-3">
-                        <div class="address-contact">
-                            <br>
-                            <p class="address-contact-hidden">Location</p>
-                            <p><i class="fa fa-home" aria-hidden="true"></i></p>
-                            <br>
-                            <br>
-                            <p class="address-contact-hidden">Phone</p>
-                            <p><i class="fa fa-mobile" aria-hidden="true"></i></p>
-                            <br>
-                            <br>
-                            <p class="address-contact-hidden">E-mail</p>
-                            <p><i class="fa fa-envelope" aria-hidden="true"></i></p>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-8 col-xs-9">
-                        <div class="address-right">
-                            <br>
-                            <p>Europe, Ukraine, Kyiv</p>
-                            <br>
-                            <p>
-                                <a href="tel:+380665270234">+38 066 527 02 34</a>
-                            </p>
-                            <br>
-                            <p>
-                                <a href="mailto:malinovskiy.alexandr@gmail.com">malinovskiy.alexandr@gmail.com</a>
-                            </p>
-                            <br>
-                        </div>
-                    </div>
-                    <div>
-                        <div id="address-map"></div>
+        <div class="row">
+            <h1 class="h1-custom text-center">Interests</h1>
+            <div class="col-md-12 text-center">
+                <div class="interests-main col-md-12">
+                    <p class="interests-text">I have a keen interest in photography. I was vice-president of the photography club during my time at university, and during this period I organised a number of very successful exhibitions and events both on and off campus.
+                        I also play the piano to grade 8 standard.
+                    </p>
+                    <div class="interests-icons">
+                        <img class="interests-hobbies" src="pic/hobby/traveling.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/mtb_cycling.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/music.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/parachute.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/karting.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/bowling.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/poker.png" alt="img_not_found">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 row text-center">
-            <p>Download full CV in .pdf</p>
-            <div class="btn-cv-download col-md-pull-4 col-md-offset-4">
-                <a href="#" class="btn btn-default btn-lg text-center">Download</a>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="mask-light">
+        <div class="container">
+            <div class="contact-bp row">
+                    <h1 class="h1-custom text-center">Contacts</h1>
+                    <div class="col-md-6">
+                        <form id="feedback-form" class="form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycbwWdk0pdGpXvHR434VA9WmhACxbCxMZWP7XyWj2mH_0RlLQZfw/exec">
+                            <fieldset class="form-fieldset">
+                                <h2>Feel free to contact me</h2>
+                                <div class="form-group">
+                                    <label for="name" class="control-label"></label>
+                                    <div class="form-input">
+                                        <input type="text" id="name" name="Name" required="required" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile" class="control-label"></label>
+                                    <div class="form-input">
+                                        <input type="tel" id="mobile" name="Mobile" required placeholder="Mobile">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="control-label"></label>
+                                    <div class="form-input">
+                                        <input type="email" id="email" name="Email" required placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="control-label"></label>
+                                    <div class="form-input">
+                                        <textarea id="message" name="Message" required placeholder="Message" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <div class="text-left">
+                                        <button type="submit" class="btn-send btn btn-default btn-lg" data-toggle="modal" data-target="#feedback_thanks">Send</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="modal fade" id="feedback_thanks" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"></button>
+                                    <h4 class="modal-title">Cool! You made right decision!</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>$(document).submit(function(event){
+                                        <br>
+                                        ($(".hired").text("Thanks! I will call you soon!"));
+                                        <br>
+                                        });
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-6">
+                    <div id="address-map-main" class="panel panel-default">
+                        <div class="col-md-4 col-sm-4 col-xs-3">
+                            <div class="address-contact">
+                                <br>
+                                <p class="address-contact-hidden">Location</p>
+                                <p><i class="fa fa-home" aria-hidden="true"></i></p>
+                                <br>
+                                <br>
+                                <p class="address-contact-hidden">Phone</p>
+                                <p><i class="fa fa-mobile" aria-hidden="true"></i></p>
+                                <br>
+                                <br>
+                                <p class="address-contact-hidden">E-mail</p>
+                                <p><i class="fa fa-envelope" aria-hidden="true"></i></p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-9">
+                            <div class="address-right">
+                                <br>
+                                <p>Europe, Ukraine, Kyiv</p>
+                                <br>
+                                <p>
+                                    <a href="tel:+380665270234">+38 (066) 527 02 34</a>
+                                </p>
+                                <br>
+                                <p>
+                                    <a href="mailto:malinovskiy.alexandr@gmail.com">malinovskiy.alexandr@gmail.com</a>
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="address-map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="btn-cv-main text-center">
+                    <a href="download/CV_Alex_Malinovskiy.pdf" class="btn-cv-download btn btn-default btn-lg text-center" download="Oleksandr_Malinovskyi_CV.pdf">Download full CV in .pdf</a>
+                </div>
             </div>
         </div>
     </div>
@@ -427,7 +453,8 @@
                     <!--</a>-->
                 <!--</div>-->
                 <div class="copyright pull-left">
-                    <p>Development: <a href="http://facebook.com/alexander.malinovskiy" class="footer-name" target="_blank">Oleksandr Malinovskyi</a></p>
+                    <p>Development: <a href="http://facebook.com/alexander.malinovskiy" class="footer-name" target="_blank"><i>Oleksandr Malinovskyi</i></a></p>
+                    <p>Design: <span><i>Google search + own creativity</i></span></p>
                 </div>
             </div>
         </div>
@@ -444,6 +471,7 @@
 <script type="text/javascript" src="vendor/jquery/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap-progressbar.min.js"></script>
+<script type="text/javascript" src="vendor/fancybox/jquery.fancybox.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/feedback.js"></script>
 
