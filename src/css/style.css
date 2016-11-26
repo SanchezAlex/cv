@@ -13,6 +13,15 @@ a, a:hover {
     height: 50px;
     box-shadow: 3px 4px 27px rgba(5, 33, 124, .13);
 }
+.nav-logo {
+    font-size: 11px;
+    line-height: 1.1;
+    display: block;
+    text-align: center;
+    border: 2px solid;
+    padding: 3px;
+    margin-top: 2px;
+}
 
 .navbar-link {
     opacity: 0.8;
