@@ -8,15 +8,26 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Landing-CV-Page</title>
+    <title>CV Oleksandr Malinovskyi</title>
     <meta name="description" content="CV Alex Malinovskyi" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="pic/favicon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="pic/favicon/avatar-152-190113.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="pic/favicon/avatar-152-190113.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="pic/favicon/avatar-144-190113.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="pic/favicon/avatar-120-190113.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="pic/favicon/avatar-114-190113.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="pic/favicon/avatar-72-190113.png">
+    <link rel="apple-touch-icon-precomposed" href="pic/favicon/avatar-57-190113.png">
+    <link rel="icon" href="pic/favicon/avatar-32-190113.png" sizes="32x32">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
@@ -30,13 +41,13 @@
                     <span class="icon-bar white-bar"></span>
                     <span class="icon-bar white-bar"></span>
                 </button>
-                <a class="nav-logo col-md-2" href="#">
-                    (landing
+                <span class="nav-logo col-md-2">
+                    CV
                     <br>
-                    {CV}
+                    Oleksandr
                     <br>
-                    page)
-                </a>
+                    Malinovskyi
+                </span>
             </div>
             <div class="padding-border-zero navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" role="navigation">
                 <ul class="nav navbar-nav navbar-right text-center">
@@ -45,6 +56,9 @@
                     </li>
                     <li>
                         <a href="#skills" class="navbar-link">skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="navbar-link">portfolio</a>
                     </li>
                     <li>
                         <a href="#experience" class="navbar-link">experience</a>
@@ -140,9 +154,9 @@
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" data-transitiongoal="10"></div>
                     </div>
-                    <span class="skill-name">Photoshop</span>
+                    <span class="skill-name">JavaScript</span>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" data-transitiongoal="8"></div>
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="4"></div>
                     </div>
                 </div>
             </div>
@@ -153,10 +167,49 @@
 <section id="portfolio">
     <div class="container">
         <h1 class="h1-custom text-center">Portfolio</h1>
-        <div class="col-sm-8 col-xs-12">
-            <a href="">
-
-            </a>
+        <div class="col-md-12 text-center">
+            <div class="portfolio__wrap">
+                <div class="col-md-7 col-sm-7 col-xs-7">
+                    <div class="portfolio__main">
+                        <a class="fancybox-portfolio" rel="gallery-portfolio" href="img/portfolio/mps.png" title="Current project on freelance">
+                            <img src="img/portfolio/mps.png" alt="img_not_found" />
+                        </a>
+                        <div class="portfolio__mask">
+                            <h2>Project #3</h2>
+                            <p>First project on freelance.
+                                <br>Target - create Corporate site for Ukrainian company which offers study and work abroad.
+                            </p>
+                            <a href="https://sanchezalex.github.io/mps_2.0/src/pages/index.html" target="_blank">View on GitHub <i class="fa fa-github fa-fw"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5">
+                    <div class="portfolio__main">
+                        <a class="fancybox-portfolio" rel="gallery-portfolio" href="img/portfolio/carpathian.png" title="Diploma Work">
+                            <img src="img/portfolio/carpathian.png" alt="img_not_found" />
+                        </a>
+                        <div class="portfolio__mask">
+                            <h2>Project #2</h2>
+                            <p>Diploma Work of courses.
+                                <br>Target - create Landing page for design studio.
+                            </p>
+                            <a href="https://sanchezalex.github.io/mps_2.0/src/pages/index.html" target="_blank">View on GitHub <i class="fa fa-github fa-fw"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__main">
+                        <a class="fancybox-portfolio" rel="gallery-portfolio" href="img/portfolio/first_prjct.png" title="First landing">
+                            <img src="img/portfolio/first_prjct.png" alt="img_not_found" />
+                        </a>
+                        <div class="portfolio__mask">
+                            <h2>Project #1</h2>
+                            <p>My first project while I studied on courses.
+                                <br>Target - create Landing page for photographer.
+                            </p>
+                            <a href="https://sanchezalex.github.io/mps_2.0/src/pages/index.html" target="_blank">View on GitHub <i class="fa fa-github fa-fw"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -240,11 +293,11 @@
                         <p class="experience-date text-center">
                             Apr 2006 – Aug 2007
                         </p>
-                        <h2 class="experience-company col-md-12 text-center">
+                        <h2 class="experience-company text-center">
                             Belichi.net.ua (acquired by <a href="http://lanet.ua/" target="_blank">Lanet.ua</a>)
                         </h2>
                         <p class="experience-position col-md-12 text-center">
-                            Wizard Connection users
+                            Network Engineer
                         <p class="experience-description">
                             <em><u>Key Responsibilities:</u></em>
                             Connection users,
@@ -275,7 +328,7 @@
                             School of design & development <a href="http://prjctr.com.ua/" target="_blank">Projector</a>
                             <br>
                             Click to
-                            <a class="fancybox-media" href="img/cert_prjctr.jpg">view certificate</a>
+                            <a class="fancybox-cert" href="img/cert_prjctr.jpg">view certificate</a>
                         </p>
                     </div>
                 </div>
@@ -283,7 +336,7 @@
             <div class="col-md-2 col-sm-2">
                 <div class="education-separator">
                     <div class="education-line"></div>
-                    <span class="education-dot"></span>
+                    <!--<span class="education-dot"></span>-->
                     <span class="education-dot"></span>
                     <span class="education-dot"></span>
                 </div>
@@ -313,8 +366,14 @@
             <h1 class="h1-custom text-center">Interests</h1>
             <div class="col-md-12 text-center">
                 <div class="interests-main col-md-12">
-                    <p class="interests-text">I have a keen interest in photography. I was vice-president of the photography club during my time at university, and during this period I organised a number of very successful exhibitions and events both on and off campus.
-                        I also play the piano to grade 8 standard.
+                    <p class="interests-text">
+                        I have many interests in my life. Starting from my teenage and student’s years I played
+                        basketball, later I decided to quit basketball and switched to cycling. In 2014 – 2015
+                        participated in 1st and 2nd cycling marathon “Kyivska Sotka” with 100 kilometers distance.
+                        In the summer 2015 I fulfilled one of my dreams and jumped with parachute in tandem from 3.6
+                        kilometers above ground with about 1 minute of free flight, it was unforgettable experience
+                        and feelings. Also, I like to play poker and mafia games together with my friends and, of
+                        course, I like to travel around the world discovering new countries and wonderful places.
                     </p>
                     <div class="interests-icons">
                         <img class="interests-hobbies" src="pic/hobby/traveling.png" alt="img_not_found">
@@ -322,6 +381,7 @@
                         <img class="interests-hobbies" src="pic/hobby/music.png" alt="img_not_found">
                         <img class="interests-hobbies" src="pic/hobby/parachute.png" alt="img_not_found">
                         <img class="interests-hobbies" src="pic/hobby/karting.png" alt="img_not_found">
+                        <img class="interests-hobbies" src="pic/hobby/ping_pong.png" alt="img_not_found">
                         <img class="interests-hobbies" src="pic/hobby/bowling.png" alt="img_not_found">
                         <img class="interests-hobbies" src="pic/hobby/poker.png" alt="img_not_found">
                     </div>
@@ -434,7 +494,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row col-md-12">
+            <div class="row">
                 <div class="btn-cv-main text-center">
                     <a href="download/CV_Alex_Malinovskiy.pdf" class="btn-cv-download btn btn-default btn-lg text-center" download="CV_Oleksandr_Malinovskyi.pdf">Download full CV in .pdf</a>
                 </div>

@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.progress .progress-bar').progressbar({display_text: 'none', use_percentage: false});
 });
 
-$(document).ready(function initMap() {
+$(document).ready(window.initMap = function() {
     (function () {
         var myLocation = new google.maps.LatLng(50.474118, 30.515123);
         var mapOptions = {
@@ -35,7 +35,14 @@ $(document).ready(function initMap() {
         // $('.intro-block').css('opacity', 1 - (scrolled * 0.01) / 10);
     }
 
-    $('.fancybox-media').fancybox({
+    $(document).ready(function() {
+        $(".fancybox-portfolio").fancybox({
+            openEffect	: 'none',
+            closeEffect	: 'none'
+        });
+    });
+
+    $('.fancybox-cert').fancybox({
         openEffect  : 'elastic',
         closeEffect : 'elastic',
         helpers : {
