@@ -7,7 +7,7 @@ $(document).ready(window.initMap = function() {
         var myLocation = new google.maps.LatLng(50.474118, 30.515123);
         var mapOptions = {
             center: myLocation,
-            zoom: 13
+            zoom: 10
         };
         var marker = new google.maps.Marker({
             position: myLocation,
@@ -37,16 +37,13 @@ $(document).ready(window.initMap = function() {
 
     $(document).ready(function() {
         $(".fancybox-portfolio").fancybox({
-            openEffect	: 'none',
-            closeEffect	: 'none'
+            openEffect	: 'fade',
+            closeEffect	: 'fade'
         });
     });
 
     $('.fancybox-cert').fancybox({
         openEffect  : 'elastic',
-        closeEffect : 'elastic',
-        helpers : {
-            media : {}
-        }
+        closeEffect : 'elastic'
     });
 });

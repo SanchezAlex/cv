@@ -229,7 +229,7 @@ img {
     font-family: 'OpenSans', sans-serif;
 }
 
-.portfolio__main a {
+.portfolio__main--link {
     padding: 9px 15px;
     margin: 10px 0;
     color: #4c4c4c;
@@ -244,7 +244,7 @@ img {
     text-transform: uppercase;
 }
 
-.portfolio__main a:hover, .portfolio__main a:active {
+.portfolio__main--link:hover, .portfolio__main--link:active {
     color: #0b7bd5;
     border: 1px solid #0b7bd5;
     background: none;
@@ -253,6 +253,32 @@ img {
 }
 .m-img-top {
     margin-top: 10px;
+}
+.portfolio__img {
+    position: relative;
+}
+.img__overlay {
+    background: rgba(33, 33, 33, 0.3);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+}
+
+.portfolio__img:hover .img__overlay,
+.portfolio__img:active .img__overlay {
+    opacity:1;
+}
+
+.img__overlay--zoom {
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 47%;
 }
 
 .joke-banner {
