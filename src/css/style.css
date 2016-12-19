@@ -243,9 +243,9 @@ img {
     border: 1px solid #4c4c4c;
     font-size: 16px;
     font-weight: normal;
-    display: inline-block;"HelveticaLTStd-Roman", Arial
+    display: inline-block;
     text-decoration: none;
-    font-family: 'RobotoLight   ', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     min-width: 120px;
     text-transform: uppercase;
 }

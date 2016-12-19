@@ -27,28 +27,6 @@ gulp.task('browser-sync', function() {
     gulp.watch("./src/**/*.*").on('change', browserSync.reload);
 });
 
-// gulp.task('sass', function () {
-//     gulp.src(['./src/sass/**/*.scss', './src/sass/**/*.sass'])
-//         .pipe(sourcemaps.init())
-//         .pipe(sass({
-//             outputStyle: 'expanded'
-//         }).on('error', gutil.log))
-//         .on('error', notify.onError())
-//         .pipe(sourcemaps.write())
-//         .pipe(gulp.dest('./src/css/'))
-//         .pipe(browserSync.stream());
-// });
-
-// gulp.task('template', function () {
-//     gulp.src('./src/pages/**/*.tmpl.html')
-//         .pipe(rigger())
-//         .pipe(rename(function (path) {
-//             path.basename = path.basename.split('.')[0];
-//             path.extname = ".html"
-//         }))
-//         .pipe(gulp.dest('./src/pages/'))
-// });
-
 gulp.task('html-prettify', function() {
     gulp.src('./src/*.html')
         .pipe(prettify({indent_char: ' ', indent_size: 2}))

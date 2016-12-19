@@ -26,20 +26,28 @@ $(document).ready(window.initMap = function() {
     function parallax() {
         var scrolled = w.scrollTop();
         b.css('transform', 'translate3d(0, ' + -(scrolled * 0.1) + 'px, 0)');
-        // $('.intro-block').css('top', 20 + (scrolled * 0.1) + '%');
+        c.css('top', 20 + (scrolled * 0.1) + '%');
         c.css('opacity', 1 - (scrolled * 0.01) / 10);
-        // $('.intro-block').css('opacity', 1 - (scrolled * 0.01) / 10);
     }
 
-    $(document).ready(function() {
-        $(".fancybox-portfolio").fancybox({
-            openEffect	: 'fade',
-            closeEffect	: 'fade'
-        });
+    $(".fancybox-portfolio").fancybox({
+        openEffect	: 'fade',
+        closeEffect	: 'fade',
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        }
+
     });
 
     $('.fancybox-cert').fancybox({
         openEffect  : 'elastic',
-        closeEffect : 'elastic'
+        closeEffect : 'elastic',
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        }
     });
 });
