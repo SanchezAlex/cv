@@ -2,68 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cb2e02-75e1-46c6-9921-0593c0d450f4" name="Default" comment="added fonts">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/01_Home_960px_for_download.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion).zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/ICONS/Resume Icons-exp.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/ICONS/Resume Icons-exp.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/ICONS/Resume Icons.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/RESUME/Tolgahan Yurtseven Resume-2016.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/RESUME/Tolgahan Yurtseven Resume-2016.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/FREE Resume Template (Self Promotion)/RESUME/Tolgahan Yurtseven Resume-2016.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/ICONS/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/ICONS/._Resume Icons-exp.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/ICONS/._Resume Icons-exp.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/ICONS/._Resume Icons.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/RESUME/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/RESUME/._Tolgahan Yurtseven Resume-2016.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/RESUME/._Tolgahan Yurtseven Resume-2016.eps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/FREE Resume Template (Self Promotion)/__MACOSX/FREE Resume Template (Self Promotion)/RESUME/._Tolgahan Yurtseven Resume-2016.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/free_resume_template_psd_by_iklimon-d8wuktp.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Thanks.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/font/fontawesome-webfont-.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/font/fontawesome-webfont-v=3.2.1.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/font/fontawesome-webfont-v=3.2.1.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/font/fontawesome-webfont-v=3.2.1.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/header-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_behance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_resume.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_testimonials.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/icons/icon_works.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/port01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/port02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/img/port03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/js/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/assets/js/smoothscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kelvin/Theme/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/php_web_developer_resume.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/php_web_developer_resume.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/resume_by_antuhin-d8ak95z.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/resume_by_antuhin-d8ak95z/Cover letter.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/resume_by_antuhin-d8ak95z/Portfolio.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/resume_by_antuhin-d8ak95z/Resume.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/download/CV_Alex_Malinovskiy.pdf" afterPath="$PROJECT_DIR$/src/download/CV_Alex_Malinovskiy.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/scripts.js" afterPath="$PROJECT_DIR$/src/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="cv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3861">
-              <caret line="261" column="145" selection-start-line="261" selection-start-column="145" selection-end-line="261" selection-end-column="145" />
+            <state relative-caret-position="756">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="766" column="18" selection-start-line="766" selection-start-column="18" selection-end-line="766" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -161,9 +102,9 @@
         <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$PROJECT_DIR$/src/js/feedback.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/scripts.js" />
         <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -501,7 +442,7 @@
       <workItem from="1481895908704" duration="10893000" />
       <workItem from="1481931695268" duration="8416000" />
       <workItem from="1481981327800" duration="769000" />
-      <workItem from="1482140438675" duration="9118000" />
+      <workItem from="1482140438675" duration="12521000" />
     </task>
     <task id="LOCAL-00001" summary="testing contact form">
       <created>1479072287813</created>
@@ -682,7 +623,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418729000" />
+    <option name="totallyTimeSpent" value="422132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,16 +636,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1857" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359869" sideWeight="0.52418095" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359869" sideWeight="0.47581902" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359869" sideWeight="0.5230608" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10359869" sideWeight="0.4769392" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34972677" sideWeight="0.5051465" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3144654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32809225" sideWeight="0.49485353" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809225" sideWeight="0.49485353" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14013086" sideWeight="0.50623053" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1082,14 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3861">
-          <caret line="261" column="145" selection-start-line="261" selection-start-column="145" selection-end-line="261" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1100,8 +1033,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+        <state relative-caret-position="81">
+          <caret line="766" column="18" selection-start-line="766" selection-start-column="18" selection-end-line="766" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding />
         </state>
       </provider>

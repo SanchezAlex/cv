@@ -764,11 +764,11 @@ img {
 
 @media (max-width: 1199px) {
     .experience-line {
-        height: 710px;
+        height: 740px;
     }
 
     .experience-dot:last-child {
-        top: 707px;
+        top: 739px;
     }
 
     .education-dot:nth-child(2) {
