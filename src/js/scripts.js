@@ -1,7 +1,3 @@
-$(document).ready(function() {
-    $('.progress .progress-bar').progressbar({display_text: 'none', use_percentage: false});
-});
-
 $(document).ready(window.initMap = function() {
     (function () {
         var myLocation = new google.maps.LatLng(50.474118, 30.515123);
