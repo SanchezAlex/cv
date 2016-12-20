@@ -284,8 +284,12 @@ img {
 .img__overlay--zoom {
     font-size: 60px;
     position: absolute;
-    top: 40%;
-    left: 47%;
+    top: 38%;
+    left: 44%;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
 }
 
 .joke-banner {
@@ -760,6 +764,10 @@ img {
 
 .copyright i {
     color: #2a5eef;
+}
+
+.fb-like {
+    padding-top: 39px;
 }
 
 @media (max-width: 1199px) {

@@ -41,6 +41,16 @@
 </head>
 
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/us_US/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <header>
     <nav class="navbar navbar-fixed-top navbar-custom">
         <div class="container">
@@ -174,7 +184,7 @@
                             <li>Gulp</li>
                             <li>npm</li>
                             <li>Bower</li>
-                            <li>GitHub</li>
+                            <li>Git</li>
                         </ul>
                     </div>
                 </div>
@@ -570,11 +580,14 @@
 <footer class="footer-main">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="copyright pull-left">
                     <p>Development: <a href="http://facebook.com/alexander.malinovskiy" class="footer-name" target="_blank"><i>Oleksandr Malinovskyi</i></a></p>
                     <p>Design: <span><i>Google search & own creativity</i></span></p>
                 </div>
+            </div>
+            <div class="col-md-6">
+                <div class="fb-like pull-right" data-href="https://sanchezalex.github.io/cv/src/index.html" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
             </div>
         </div>
     </div>
