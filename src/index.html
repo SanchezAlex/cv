@@ -198,7 +198,7 @@
                             <li>JavaScript</li>
                             <li>JQuery</li>
                             <li>AngularJS</li>
-                            <li>React</li>
+                            <li>ReactJS</li>
                         </ul>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                         <p>Current project on freelance.
                             <br>
                             <br>
-                            <b>Target</b> - create Corporate site for Ukrainian company which offers study and work abroad.
+                            <b>Target</b> - creating Corporate site for Ukrainian company which offers study and work abroad.
                         </p>
                         <a class="portfolio__main--link" href="https://sanchezalex.github.io/mps_2.0/src/pages/index.html" target="_blank">
                             View on GitHub <i class="fa fa-github fa-fw"></i>
@@ -293,7 +293,7 @@
                         <p>Diploma Work of courses.
                             <br>
                             <br>
-                            <b>Target</b> - create Landing page for design studio.
+                            <b>Target</b> - creating Landing page for design studio.
                         </p>
                         <a class="portfolio__main--link" href="https://sanchezalex.github.io/mps_2.0/src/pages/index.html" target="_blank">View on GitHub <i class="fa fa-github fa-fw"></i></a>
                     </div>
@@ -314,7 +314,7 @@
                         <p>First project while I studied on courses.
                             <br>
                             <br>
-                            <b>Target</b> - create Landing page for photographer.
+                            <b>Target</b> - creating Landing page for photographer.
                         </p>
                         <a class="portfolio__main--link" href="https://sanchezalex.github.io/photographer/index.html" target="_blank">View on GitHub <i class="fa fa-github fa-fw"></i></a>
                     </div>
@@ -476,28 +476,24 @@
                             <fieldset class="form-fieldset">
                                 <h3>Feel free to <del>contact</del> hire me <i class="fa fa-smile-o" aria-hidden="true"></i></h3>
                                 <div class="form-group">
-                                    <label for="name" class="control-label"></label>
-                                    <div class="form-input">
-                                        <input type="text" id="name" name="Name" placeholder="Name*">
-                                    </div>
+                                    <input type="text" id="name" name="Name" required/>
+                                    <label for="name">Name*</label>
+                                    <div class="line"></div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="mobile" class="control-label"></label>
-                                    <div class="form-input">
-                                        <input type="tel" id="mobile" name="Mobile" placeholder="Mobile*">
-                                    </div>
+                                    <input type="tel" id="mobile" name="Mobile" required/>
+                                    <label for="mobile">Mobile*</label>
+                                    <div class="line"></div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" class="control-label"></label>
-                                    <div class="form-input">
-                                        <input type="email" id="email" name="Email" placeholder="Email*">
-                                    </div>
+                                    <input type="email" id="email" name="Email" required/>
+                                    <label for="email">Email*</label>
+                                    <div class="line"></div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="message" class="control-label"></label>
-                                    <div class="form-input">
-                                        <textarea id="message" name="Message" placeholder="Message*" rows="3"></textarea>
-                                    </div>
+                                    <textarea id="message" name="Message" required></textarea>
+                                    <label for="message">Message*</label>
+                                    <div class="line"></div>
                                 </div>
                                 <br>
                                 <div class="form-group">
@@ -512,13 +508,12 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal"></button>
                                     <h4 class="modal-title">Cool! You made right decision!</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <p>$(document).submit(function(event){
+                                    <p><span class="yellow">$</span>(<span class="pink">document</span>).<span class="pink">submit</span>(<span class="orange">function</span>(<span class="grey">event</span>){
                                         <br>
-                                        ($(".hired").text("Thanks! I will call you soon!"));
+                                        <span class="padding-left">(<span class="yellow">$</span>(<span class="green">"</span>.<span class="yellow">hired</span><span class="green">"</span>).<span class="yellow">text</span>(<span class="green">"Thanks! I will call you soon!"</span>));</span>
                                         <br>
                                         });
                                     </p>
@@ -570,7 +565,7 @@
             </div>
             <div class="row">
                 <div class="btn-cv-main text-center">
-                    <a href="download/CV_Alex_Malinovskiy.pdf" class="btn-cv-download btn btn-default btn-lg text-center" download="CV_Oleksandr_Malinovskyi.pdf">Download full CV in .pdf</a>
+                    <button href="download/CV_Alex_Malinovskiy.pdf" class="btn-cv-download btn btn-default btn-lg text-center" download="CV_Oleksandr_Malinovskyi.pdf">Download full CV in .pdf</button>
                 </div>
             </div>
         </div>
@@ -582,8 +577,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="copyright pull-left">
-                    <p>Development: <a href="http://facebook.com/alexander.malinovskiy" class="footer-name" target="_blank"><i>Oleksandr Malinovskyi</i></a></p>
-                    <p>Design: <span><i>Google search & own creativity</i></span></p>
+                    <p>Development: <a href="http://facebook.com/alexander.malinovskiy" class="footer-name" target="_blank"><span>Oleksandr Malinovskyi</span></a></p>
+                    <p>Design: <span>Google search & own creativity</span></p>
                 </div>
             </div>
             <div class="col-md-6">

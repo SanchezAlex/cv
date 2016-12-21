@@ -1,5 +1,6 @@
 a, a:hover {
-    color: #0b7bdb;;
+    color: #0b7bdb;
+    outline: none;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 .navbar-custom {
     background-color: #fff;
     height: 50px;
-    box-shadow: 3px 4px 27px rgba(5, 33, 124, .13);
+    box-shadow: 3px 4px 27px rgba(0, 0, 0, 0.3);;
 }
 
 .nav-logo {
@@ -142,7 +143,7 @@ img {
     width: 350px;
 }
 
-.nav > li > a:focus, .nav > li > a:hover, .btn-default:hover {
+.nav > li > a:focus, .nav > li > a:hover {
     color: #ffffff;
     background-color: #0b7bdb;
     border-color: #ffffff;
@@ -241,6 +242,7 @@ img {
     color: #4c4c4c;
     background: none;
     border: 1px solid #4c4c4c;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: normal;
     display: inline-block;
@@ -290,16 +292,6 @@ img {
     width: 85px;
     height: 85px;
     border-radius: 50%;
-}
-
-.joke-banner {
-    background-image: url('../img/git-joke.png');
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 520px;
-    z-index: 0;
 }
 
 .experience-main {
@@ -649,10 +641,6 @@ img {
     border-radius: 2px;
 }
 
-#contact {
-    /*background: url('../img/contact-bg.jpg') no-repeat center;*/
-}
-
 .contact-me {
     padding: 20px;
 }
@@ -678,34 +666,253 @@ img {
 }
 
 .form-horizontal .form-group {
-    margin: 0;
+    position: relative;
+    margin: 0 0 17px;
 }
 
 .form-fieldset {
     padding: 30px;
 }
 
-.form-input {
-    margin: 10px auto;
-}
-
-#name, #mobile, #email, #message {
+input {
     display: block;
+    margin: 10px auto;
+    padding: 10px;
     width: 100%;
-    padding: 5px 0;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 2px solid #0b7bdb;
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0);
-    color: #000;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background-color: #fafafd;
 }
 
-.btn-send {
-    padding: 10px 40px;
-    border-radius: 50px;
+label {
+    position:absolute;
+    top: 12px;
+    left: 10px;
+    display: block;
+    transition: 0.2s ease;
+    color: rgba(118, 118, 118, 0.71);
+    font-family: 'RobotoRegular', sans-serif;
 }
+
+.line {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0b7bdb;
+    transition: 0.6s ease;
+}
+
+input:focus ~ label, input:valid ~ label {
+    transition: 0.2s ease;
+    transform: translate(-10px, -20px) scale(0.75);
+    color: #0b7bdb;
+}
+
+input:focus ~ .line, input:valid ~ .line {
+    transition: 0.6s ease;
+    width: 100%;
+}
+
+textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    transition: 0.6s ease;
+    overflow: hidden;
+    background-color: #fafafd;
+}
+
+textarea:focus, textarea:valid {
+    transition: 0.6s ease;
+}
+
+textarea:focus ~ label, textarea:valid ~ label {
+    transition: 0.2s ease;
+    transform: translate(-10px, -20px) scale(0.75);
+    color: #0b7bdb;
+}
+
+textarea:focus ~ .line, textarea:valid ~ .line {
+    transition: 0.6s ease;
+    width: 100%;
+}
+
+button,
+button:active,
+button:focus,
+button:hover,
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover{
+    outline:none !important;
+}
+.btn {
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 3px solid  #0b7bdb;
+    overflow: hidden;
+    background-color: #0b7bdb;
+    color: #fff;
+}
+.btn:hover,
+.btn:focus {
+    color: #0b7bdb;
+    border: 3px solid  #0b7bdb;
+    background-color: #fff;
+    transition: all .3s ease-out;
+}
+
+.modal-open {
+    overflow:auto;
+    padding-right:0 !important;
+}
+
+.modal-body {
+    background-color: #091568;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.pink {
+    color: #9A0086;
+}
+.green {
+    color: #279d1d;
+}
+.grey {
+    color: #9a9797;
+}
+.yellow {
+    color: #ffef01;
+}
+.orange {
+    color: #fc9d22;
+}
+.padding-left {
+    padding-left: 30px;
+}
+
+
+
+/*input {*/
+    /*display:block;*/
+    /*margin:10px auto;*/
+    /*padding:10px;*/
+    /*width:100%;*/
+    /*border:none;*/
+    /*border-bottom:1px solid #999;*/
+    /*outline:none;*/
+/*}*/
+
+/*button {*/
+    /*display: block;*/
+    /*padding: 10px;*/
+    /*margin: 10px auto;*/
+    /*width: 80%;*/
+    /*border: none;*/
+    /*position: relative;*/
+    /*background: accent;*/
+    /*color: $ white;*/
+    /*border-radius: 10px;*/
+    /*overflow: hidden;*/
+/*}*/
+/*button:before {*/
+     /*content:'';*/
+     /*position:absolute;*/
+     /*top:0;*/
+     /*left:-100%;*/
+     /*width:60%;*/
+     /*height:100%;*/
+     /*background:rgba($white,0.3);*/
+     /*transform:skew(-45deg);*/
+     /*transition:0.2s ease;*/
+ /*}*/
+/*button:hover,*/
+/*button:before {*/
+     /*left:-10%;*/
+ /*}*/
+
+
+
+/*.line {*/
+    /*position:absolute;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*width:0;*/
+    /*height:2px;*/
+    /*background: #0000AA;*/
+    /*transition:0.6s ease;*/
+/*}*/
+
+/*.form-group {*/
+    /*position: relative;*/
+    /*margin: 0 0 23px;*/
+/*}*/
+/*.form-group label {*/
+    /*position:absolute;*/
+    /*top:12px;*/
+    /*left:10px;*/
+    /*display:block;*/
+    /*transition:0.2s ease;*/
+/*}*/
+
+/*input,*/
+/*input:focus label,*/
+/*input:valid label {*/
+      /*transition:0.2s ease;*/
+      /*transform:translate(-10px, -20px) scale(0.75);*/
+  /*}*/
+/*input .line,*/
+/*input:focus .line,*/
+/*input:valid .line*/
+ /*{*/
+      /*transition:0.6s ease;*/
+      /*width:100%;*/
+  /*}*/
+
+
+/*textarea {*/
+    /*display: block;*/
+    /*margin: 10px auto 0;*/
+    /*padding: 10px;*/
+    /*resize: none;*/
+    /*width: 100%;*/
+    /*height: 40px;*/
+    /*outline: 0;*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #999;*/
+    /*transition: 0.6s ease;*/
+/*}*/
+/*textarea:focus,*/
+/*textarea:valid {*/
+    /*transition: 0.6s ease;*/
+    /*height: 150px;*/
+/*}*/
+/*textarea:focus label,*/
+/*textarea:valid label {*/
+      /*transition:0.2s ease;*/
+      /*transform:translate(-10px, -20px) scale(0.75);*/
+  /*}*/
+/*textarea:focus .line,*/
+/*textarea:valid.line {*/
+      /*transition:0.6s ease;*/
+      /*width:100%;*/
+  /*}*/
+
+
+
+
+
 
 .address-contact {
     opacity: 0.6;
@@ -762,7 +969,7 @@ img {
     font-family: 'RobotoLight', sans-serif;
 }
 
-.copyright i {
+.copyright span {
     color: #2a5eef;
 }
 
