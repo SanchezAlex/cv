@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cb2e02-75e1-46c6-9921-0593c0d450f4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/scripts.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="cv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +39,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="979" column="18" selection-start-line="979" selection-start-column="18" selection-end-line="979" selection-end-column="18" />
+            <state relative-caret-position="702">
+              <caret line="1008" column="5" selection-start-line="1008" selection-start-column="5" selection-end-line="1008" selection-end-column="5" />
               <folding>
-                <marker date="1482704467867" expanded="true" signature="12921:12973" ph="..." />
+                <marker date="1482704932478" expanded="true" signature="12921:12973" ph="..." />
               </folding>
             </state>
           </provider>
@@ -542,7 +540,7 @@
       <workItem from="1482403114425" duration="15195000" />
       <workItem from="1482483361599" duration="21663000" />
       <workItem from="1482600679140" duration="9756000" />
-      <workItem from="1482670481197" duration="22814000" />
+      <workItem from="1482670481197" duration="23179000" />
     </task>
     <task id="LOCAL-00001" summary="testing contact form">
       <created>1479072287813</created>
@@ -754,11 +752,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482421830567</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feedback form - finished/footer - updated">
+      <created>1482704724864</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1482704724864</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540509000" />
+    <option name="totallyTimeSpent" value="540874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="map. changed api_key" />
     <MESSAGE value="address. updated col-xs" />
     <MESSAGE value="feedback. changed fs to h2" />
     <MESSAGE value="addded bckgrs" />
@@ -852,7 +856,8 @@
     <MESSAGE value="portfolio - upgraded hover + added fb-buttons in footer" />
     <MESSAGE value="feedback form - updated" />
     <MESSAGE value="feedback form - without required pop-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="feedback form - without required pop-up" />
+    <MESSAGE value="feedback form - finished/footer - updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="feedback form - finished/footer - updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1174,10 +1179,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="979" column="18" selection-start-line="979" selection-start-column="18" selection-end-line="979" selection-end-column="18" />
+        <state relative-caret-position="702">
+          <caret line="1008" column="5" selection-start-line="1008" selection-start-column="5" selection-end-line="1008" selection-end-column="5" />
           <folding>
-            <marker date="1482704467867" expanded="true" signature="12921:12973" ph="..." />
+            <marker date="1482704932478" expanded="true" signature="12921:12973" ph="..." />
           </folding>
         </state>
       </provider>
