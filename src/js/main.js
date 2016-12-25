@@ -50,4 +50,14 @@ $(document).ready(window.initMap = function() {
             }
         }
     });
+
+    $(document).on('focusout', '.input-field', function() {
+        if ($.trim($(this).val()) != '') {
+            $(this).parent().addClass('input-filled');
+        }
+        else {
+            $(this).parent().removeClass('input-filled');
+        }
+    });
+
 });
