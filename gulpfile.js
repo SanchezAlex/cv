@@ -90,4 +90,4 @@ gulp.task('minify-img', function() {
 });
 
 gulp.task('server', ['browser-sync']);
-gulp.task('build', ['html-prettify', 'prefixer-css', 'comb-css', 'minify-js', 'concat-js', 'minify-img']);
+gulp.task('build', ['html-prettify', 'comb-css', 'prefixer-css', 'minify-css', 'minify-js', 'concat-js', 'minify-img']);
